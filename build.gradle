@@ -1,0 +1,19 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.java'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'commons-lang:commons-lang:2.6'
+}
+
+test {
+	useJUnitPlatform()
+}
